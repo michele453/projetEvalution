@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SECEL - Accueil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #00aaff, #ff77a6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background-color: #f4ebeb;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            padding: 40px 20px;
+            width: 300px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            text-decoration: none;
+        }
+        .button {
+            background-color: #00aaff;
+            color: rgb(24, 1, 1);
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color:rgb(237, 177, 187);
+        }
+        .links {
+            margin-top: 30px;
+            font-size: 16px;
+            color: #333;
+            display: flex;
+            justify-content: center;
+        }
+        .link {
+            margin: 0 15px;
+            text-decoration:none;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+        .link:hover {
+            color: #ff4c8f;
+        }
+        a{
+            text-decoration:none;  
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenue sur SECEL</h1>
+        <button class="button"><a href="connexion.html">Se connecter<a></button>
+        <div class="links">
+            <div class="link" title="À propos">À propos</div>
+            <div class="link" title="Contacts">Contacts</div>
+        </div>
+    </div>
+</body>
+</html>
